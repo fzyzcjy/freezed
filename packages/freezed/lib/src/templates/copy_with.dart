@@ -54,7 +54,7 @@ abstract class $_abstractClassName${genericsDefinition.append('\$Res')} $impleme
   factory $_abstractClassName($clonedClassName$genericsParameter value, \$Res Function($clonedClassName$genericsParameter) then) = $_implClassName$implGenerics;
 ${_copyWithPrototype('call')}
 
-${_abstractDeepCopyMethods().join()}
+${/*_abstractDeepCopyMethods().join()*/ ''}
 }''';
   }
 
@@ -128,7 +128,7 @@ class $_implClassName${genericsDefinition.append('\$Res').append('\$Val extends 
   final \$Res Function(\$Val) _then;
 
 $copyWith
-${_deepCopyMethods(isConcrete: false).join()}
+${/*_deepCopyMethods(isConcrete: false).join()*/ ''}
 }
 ''';
   }
