@@ -145,7 +145,7 @@ class $_implClassName${genericsDefinition.append('\$Res')} extends ${parent!._im
 
 ${_copyWithMethod(parametersTemplate)}
 
-${_deepCopyMethods(isConcrete: true).join()}
+${/*_deepCopyMethods(isConcrete: true).join()*/ ''}
 }''';
   }
 
